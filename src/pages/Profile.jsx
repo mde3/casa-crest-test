@@ -1,8 +1,11 @@
+import Helmet from "../components/Helmet"
 
 const Profile = () => {
-  return (
-    <div>Profile</div>
-  )
+  return <Helmet title={"Profile"}>
+    <section className="Profile">
+      Profile
+    </section>
+  </Helmet>
 }
 
 export default Profile

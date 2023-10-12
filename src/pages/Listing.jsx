@@ -1,8 +1,11 @@
+import Helmet from "../components/Helmet"
 
 const Listing = () => {
-    return (
-      <div>Listing</div>
-    )
+    return <Helmet title={"Listing"}>
+      <section className="">
+        Listing
+      </section>
+    </Helmet>
   }
   
   export default Listing

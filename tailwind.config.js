@@ -8,7 +8,11 @@ export default {
     fontFamily: {
       DMSans: ['DM Sans', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+      colors: {
+        'myblue': '#0025ba',
+      },
+    },
   },
   plugins: [],
 }
